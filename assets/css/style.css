@@ -1,8 +1,9 @@
 @use "sass:math";
 :root {
   --theme-color: #001C47;
-  --theme-color2: #2946b8;
+  --theme-color2: #FF7F2A;
   --title-color: #00151d;
+  --title-color2: #00151d7c;
   --body-color: #788094;
   --smoke-color: #f5f7fa;
   --smoke-color2: #f5f7eb;
@@ -6255,11 +6256,12 @@ ol.wp-block-rss {
   }
 }
 .breadcumb-wrapper {
-  background-color: var(--title-color);
+  background-color: var(--title-color2);
   background-position: bottom center;
   padding: 124px 0 124px 0;
   overflow: hidden;
   text-align: center;
+  background-blend-mode: multiply;
 }
 @media (max-width: 1199px) {
   .breadcumb-wrapper {

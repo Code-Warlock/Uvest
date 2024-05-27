@@ -122,7 +122,7 @@
   e("[data-bg-src]").length > 0 &&
     e("[data-bg-src]").each(function () {
       var t = e(this).attr("data-bg-src");
-      e(this).css("background-image", "url(" + t + ")"),
+      e(this).css("background-image", "url(" + t + ")", "background-size", "cover", "background-color", "#001C4767"),
         e(this).removeAttr("data-bg-src").addClass("background-image");
     }),
     e("[data-bg-color]").length > 0 &&
