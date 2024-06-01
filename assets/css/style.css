@@ -7422,6 +7422,7 @@ ul.comment-list:has(> .th-comment-item ~ .th-comment-item):first-child
   width: 100%;
   object-fit: cover;
   overflow: hidden;
+  mix-blend-mode:multiply;
 }
 .hero-1 {
   background-color: rgba(0, 21, 29, 0.6);
